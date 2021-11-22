@@ -1,0 +1,15 @@
+Bahan-bahan : 
+
+1. Peralatan Qemu.
+2. Paket ovmf (Firmware UEFI untuk VM).
+3. ISO yang mendukung UEFI.
+
+Cara-cara menjalankan Qemu dengan mode UEFI :
+
+1. Install paket ovmf (Firmware UEFI untuk VM).
+
+$ sudo apt install ovmf
+
+2. Jalankan Qemu dengan perintah :
+
+$ qemu-system-x86_64 -bios /usr/share/ovmf/OVMF.fd -enable-kvm -m 1500 -nic user,model=virtio -drive file=/path/file/qcow2,media=disk,if=virtio --cdrom /path/file/iso --display gtk
