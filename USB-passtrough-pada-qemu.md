@@ -13,6 +13,8 @@
 	> $ lsusb \
 	> $ lsusb | grep NAMA_PERANGkAT
 
+![lsusb](https://github.com/ahmadraniri1994/Tutur-Tinular/blob/main/Qemu-usb/2022-01-01T18:58:51%2C139035885%2B07:00.png)
+
 1. Lihat bagian **Bus** dan **Device** !
 
 	> **Bus 002 Device 003**: ID 0930:6544 Toshiba Corp. TransMemory-Mini Kingston DataTraveler 2.0 Stick
