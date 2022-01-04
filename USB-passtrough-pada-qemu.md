@@ -41,10 +41,13 @@
    -device usb-host,bus=xhci.0,hostdevice=/dev/bus/usb/002/003 \
    --display gtk 
    
-   <br>
+<br>
+   
    Versi baris perintah normal :
-   <br>
-   > qemu-system-x86_64 -enable-kvm -m 1000 -nic user,model=virtio -drive file=file.qcow2,media=disk,if=virtio -device qemu-xhci,id=xhci -device usb-host,bus=xhci.0,hostdevice=/dev/bus/usb/002/003 --display gtk
+   
+<br>
+   	> qemu-system-x86_64 -enable-kvm -m 1000 -nic user,model=virtio -drive file=file.qcow2,media=disk,if=virtio -device qemu-xhci,id=xhci -device usb-host,bus=xhci.0,hostdevice=/dev/bus/usb/002/003 --display gtk
+<br>
    
    	![Perintah](https://github.com/ahmadraniri1994/Tutur-Tinular/blob/main/Qemu-usb/2022-01-01T18:25:49%2C036602942%2B07:00.png)
 <br>
