@@ -13,7 +13,7 @@
 	> $ lsusb \
 	> $ lsusb | grep NAMA_PERANGkAT
 
-![lsusb](https://github.com/ahmadraniri1994/Tutur-Tinular/blob/main/Qemu-usb/2022-01-01T18:58:51%2C139035885%2B07:00.png)
+	![lsusb](https://github.com/ahmadraniri1994/Tutur-Tinular/blob/main/Qemu-usb/2022-01-01T18:58:51%2C139035885%2B07:00.png)
 
 1. Lihat bagian **Bus** dan **Device** !
 
