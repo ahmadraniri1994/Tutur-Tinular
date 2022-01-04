@@ -40,9 +40,8 @@
    -device qemu-xhci,id=xhci \
    -device usb-host,bus=xhci.0,hostdevice=/dev/bus/usb/002/003 \
    --display gtk 
-   
-<br>
 
    	![Perintah](https://github.com/ahmadraniri1994/Tutur-Tinular/blob/main/Qemu-usb/2022-01-01T18:25:49%2C036602942%2B07:00.png)
 
+<br>
 Note : USB Flash drive saya terbaca sebagai **/dev/sda** dan bisa terbuka di OS virtual.
