@@ -63,6 +63,7 @@ Note :
 - Just leave the sources.list file and do "apt update and apt upgrade". 
 
 > \# apt update
+
 > \# apt upgrade
 
 <br>
