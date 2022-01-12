@@ -13,11 +13,6 @@
 
 1. Boot slax !
 
-- Format USB, use ext4 format.
-- Copy Slax ISO's contains to usb.
-- Execute .sh file.
-- Boot with that usb or just burn ISO slax to CD.
-
 <br>
 2. Open terminal (xterm) !
 <br>
